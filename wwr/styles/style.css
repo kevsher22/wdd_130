@@ -3,10 +3,6 @@
     margin: 0 auto;
 }
 
-* {
-   border: 2px solid steelblue;
-}
-
 .home-title{
     color: black;
 }
@@ -55,7 +51,9 @@ nav a:hover {
     text-decoration: none;
 }
 
-div a {
+.button-box {
+    width: 80px;
+    margin: 0 auto;
     text-align: center;
 }
 
