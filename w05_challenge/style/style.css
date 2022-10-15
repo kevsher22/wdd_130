@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+header {
+    margin: 0;
+}
+
+header img {
+    width: 100%;
+}
+
+.short-image {
+    border-radius: 50%;
+    border: 20px solid rgb(65, 62, 62);
+    width: 15%;
+}
+
+main {
+    background-color: grey;
+    margin: 0;
+}
+
+* {
+    border: 4px steelblue;
+}

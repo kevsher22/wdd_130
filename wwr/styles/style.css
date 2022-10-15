@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Rubik+Dirt&family=Source+Serif+Pro:wght@200;400&display=swap');
+
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,12 +8,16 @@
 
 .home-title{
     color: black;
+    font-family: 'Merriweather', 'Source Serif Pro', Rubik Dirt;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 nav a {
     text-align: center;
     color:antiquewhite;
     text-decoration: none;
+    padding: 35px;
 }
 
 h4 {
@@ -35,6 +42,10 @@ main section {
 
 body {
     background-color: white;
+    font-family: 'Merriweather', 'Source Serif Pro', Rubik Dirt;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -49,11 +60,16 @@ nav a:hover {
     background-color:antiquewhite;
     color: black;
     text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 5px solid black;
 }
 
 .button-box {
-    width: 80px;
-    margin: 0 auto;
+
     text-align: center;
 }
 
@@ -66,8 +82,10 @@ nav a:hover {
     background-color: antiquewhite;
 }
 
-.msg{
+.msg {
     background-color: #606c38;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
@@ -76,11 +94,17 @@ nav a:hover {
 
 .msg p {
     color: antiquewhite;
+    font-family: 'Merriweather', 'Source Serif Pro', Rubik Dirt;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #606c38;
     color: antiquewhite;
+}
+
+h2 {
+    margin: 0;
 }
 
 footer a {
@@ -100,16 +124,39 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-cards {    
+    margin: 200px 0;
+    padding: 10px 0;
+}
+
+.card-img {
+    background-color: antiquewhite;
+    padding: 10px 10px;
+    border-radius: 20px solid black;
+}
+
+main section img {
+    box-sizing: border-box;
+}
 
