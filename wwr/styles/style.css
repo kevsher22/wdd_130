@@ -244,6 +244,120 @@ footer .social img {
 main section img {
     box-sizing: border-box;
 }
+/*--------------------------------------------------- CSS RIVERS SUBPAGE ------------------------------------------*/
+#page-title {
+    background-color: wheat;
+    color: blacks;
+    height: 60px;
+    text-align: center;
+    
+}
+
+
+
+/*----------------------------------------------- FIRST RIVER'S INFORMATION --------------------------------------*/
+.rivers-grid {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2%;
+    /*border: 10px solid black;*/
+}
+.rivers-img-container{
+    /*border: 5px solid red;*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+#first-img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+.rivers-button-box{
+    /*border: 5px solid green;*/
+    grid-column: 2/3;
+    grid-row: 1/2;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 20px;
+}
+#river-button-setting{
+    text-decoration: none;
+    /*border: 5px solid black;*/
+    background-color: antiquewhite;
+    color: black;
+   
+}
+#river-button-setting:hover {
+    background-color: white;
+}
+
+/*---------------------------------------------- SECOND RIVER'S INFORMATION -------------------------------------*/
+.second-rivers-img-container {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+#second-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.second-rivers-info {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.second-rivers-button-box {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 20px;
+}
+
+#second-river-button-setting {
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: black;
+}
+
+#second-river-button-setting:hover {
+    background-color: white;
+}
+
+/*----------------------------------------------- THIRD RIVER'S INFORMATION --------------------------------------*/
+.third-rivers-img-container {
+    grid-column: 2/3;
+    grid-row: 3/4;
+
+}
+
+#third-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.third-rivers-button-box {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-self: center;
+    align-self: end;
+    margin-bottom: 20px;
+}
+
+#third-river-button-setting {
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: black;
+}
+
+#third-river-button-setting:hover {
+    background-color: white;
+}
+
+
 
 
 @media screen and (max-width: 900px) {
