@@ -257,7 +257,8 @@ main section img {
 
 /*----------------------------------------------- FIRST RIVER'S INFORMATION --------------------------------------*/
 .rivers-grid {
-    margin-top: 30px;
+    margin-top: 5%;
+    margin-bottom: 20%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 2%;
