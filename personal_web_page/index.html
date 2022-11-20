@@ -10,22 +10,77 @@
 <body>
     <div id="content">
         <header>
-            <a id="logo-link" href="index.html">
-                <img class="logo" src="images/rsz_herdez_marion-1.png" alt="Herdez Marion">
-            </a>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="#">Page 1</a>
-                <a href="#">Page 2</a>
-                <a href="#">Sales</a>
-                <a href="#">Contact Us</a>
-            </nav>
+            <div class="container">
+                <a id="logo-link" href="index.html">
+                    <img class="logo" src="images/rsz_herdez_marion-1.png" alt="Herdez Marion">
+                </a>
+                <nav>
+                    <a class="link" href="index.html">Home</a>
+                    <a class="link" href="men.html">Men's apparel</a>
+                    <a class="link" href="women.html">Women's apparel</a>
+                    <a class="link" href="#">clearence</a>
+                    <a class="link" href="#">Contact Us</a>
+                </nav>
+            </div>
         </header>
-        <main>
+        
+        <section id="menu">
+            
+                <section class="men-card">
+                    <img class="card-img" src="images/tennis_player.jpg" alt="Men's apparel">
+                    <h1>Men</h1>
+                    <form action="#">
+                        <button>Shop Now</button>
+                    </form>
+                </section>
+                <section class="women-card">
+                    <img class="card-img" src="images/rsz_2woman-sport.jpg" alt="Women's apparel">
+                    <h1>Women</h1>
+                    <form action="#">
+                        <button>Shop Now</button>
+                    </form>
+                </section>
+                <section class="clearence-card">
+                    <img class="card-img" src="images/clearence.jpg" alt="Clearence">
+                    <h1>Clearence</h1>
+                    <form action="#">
+                        <button>Shop Now</button>
+                    </form>
+                </section>
+           
+        </section>
 
-        </main>
+        <section id="hero">
+            <form action="men.html">
+                <button>Men's Apparel</button>
+            </form>
+            <form action="women.html">
+                <button>Women's Apparel</button>
+            </form>
+            <button>Clearence</button>
+        </section>
         <footer>
-
+            <div class="container">
+                <p>&copy; Herdez Marion 2022</p>
+                <div id="icon-grid">
+                    <a href="http://facebook.com" target="_blank">
+                        <img src="images/facebook.png" alt="facebook icon">
+                    </a>
+                    <a href="http://instagram.com" target="_blank">
+                        <img src="images/instagram.png" alt="instagram icon">
+                    </a>
+                    <a href="https://web.telegram.org" target="_blank">
+                        <img src="images/telegram.png" alt="telegram icon">
+                    </a>
+                </div>
+                <div class="footer-link">
+                    <a href="index.html">Home</a>
+                    <a href="men.html">Men's apparel</a>
+                    <a href="women.html">Women's apparel</a>
+                    <a href="#">Clearence</a>
+                    <a href="#">Contanc us</a>
+                </div>
+            </div>
         </footer>
     </div>
 </body>
