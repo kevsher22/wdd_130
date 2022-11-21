@@ -107,7 +107,7 @@ header .link {
     align-items: center;
     justify-content: center;
     height: 90vh;
-    background-image: url("/personal_web_page/images/rsz_1tennis_ball.jpg");
+    background-image: url("images/rsz_1tennis_ball.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
