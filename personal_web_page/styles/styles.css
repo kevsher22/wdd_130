@@ -1,5 +1,6 @@
 /*-------------------------------------- FONTS, PARAGRAPH, AND BUTTONS---------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=IBM+Plex+Serif:ital,wght@0,200;1,100&family=Nanum+Myeongjo:wght@400;700;800&family=Permanent+Marker&display=swap');
+
 * {
     box-sizing: border-box;
 }
@@ -17,7 +18,7 @@ p {
     font-weight: bold;
 }
 
-button {
+.body-button {
     font-size: 1em;
     font-weight: bold;
     padding: 10px 15px;
@@ -40,6 +41,38 @@ button:hover {
 }
 
 /*--------------------------------------------- HEADER SETTINGS -------------------------------------------------*/
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 180px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+
+  #content {
+    margin-left: 180px; /* Same as the width of the sidebar */
+    padding: 0px 0px;
+  }
+
 header {
     background-color: #2A9D8F;
 }
@@ -72,6 +105,29 @@ header .link {
 }
 .link:hover {
     color: #073c35;
+}
+
+nav input[type=text] {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 17px;
+    border: 2px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.search {
+    float: left;
+    width: 20%;
+    height: 41px;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
 }
 
 /*---------------------------------------------MENU SETTINGS--------------------------------------------------*/
@@ -162,6 +218,7 @@ footer p {
 }
 
 /*----------------------------------------------- SECOND PAGE ------------------------------------------------*/
+
 #upper-title {
     text-align: center;
     display: flex;
@@ -249,6 +306,7 @@ footer p{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
 }
 
 

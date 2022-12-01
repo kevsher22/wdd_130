@@ -2,12 +2,20 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
 </head>
 <body>
+   <!-- Side navigation -->
+    <div class="sidenav">
+        <a href="index.html">Home</a>
+        <a href="men.html">Men's</a>
+        <a href="women.html">Women's</a>
+        <a href="site-plan.html">Site Plan</a>
+    </div>
     <div id="content">
         <header>
             <div class="container">
@@ -20,6 +28,10 @@
                     <a class="link" href="women.html">Women's apparel</a>
                     <a class="link" href="site-plan.html">Site Plan</a>
                     <a class="link" href="#">Contact Us</a>
+                    <div class="search-form">
+                        <input type="text" placeholder="Search..">
+                        <button class="search" type="submit"><i class="fa fa-search"></i></button>
+                    </div>
                 </nav>
             </div>
         </header>
@@ -29,22 +41,22 @@
                 <section class="men-card">
                     <img class="card-img" src="images/tennis_player.jpg" alt="Men's apparel">
                     <h1>Men</h1>
-                    <form action="#">
-                        <button>Shop Now</button>
+                    <form action="men.html">
+                        <button class="body-button">Shop Now</button>
                     </form>
                 </section>
                 <section class="women-card">
                     <img class="card-img" src="images/rsz_2woman-sport.jpg" alt="Women's apparel">
                     <h1>Women</h1>
-                    <form action="#">
-                        <button>Shop Now</button>
+                    <form action="women.html">
+                        <button class="body-button">Shop Now</button>
                     </form>
                 </section>
                 <section class="clearence-card">
                     <img class="card-img" src="images/clearence.jpg" alt="Clearence">
                     <h1>Clearence</h1>
-                    <form action="#">
-                        <button>Shop Now</button>
+                    <form action="site-plan.html">
+                        <button class="body-button">Shop Now</button>
                     </form>
                 </section>
            
@@ -52,12 +64,12 @@
 
         <section id="hero">
             <form action="men.html">
-                <button>Men's Apparel</button>
+                <button class="body-button">Men's Apparel</button>
             </form>
             <form action="women.html">
-                <button>Women's Apparel</button>
+                <button class="body-button">Women's Apparel</button>
             </form>
-            <button>Clearence</button>
+            <button class="body-button">Clearence</button>
         </section>
         <footer>
             <div class="container">
