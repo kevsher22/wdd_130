@@ -5,10 +5,10 @@ Fonts are separated by a | */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #2A9D8F;
-  --secondary-color: #F4A261;
-  --accent1-color: #E9C46A;
-  --accent2-color: #264653;
-  --accentt3-color: #2A9D8F;
+  --secondary-color: #264653;
+  --accent1-color: white;
+  --accent2-color: black;
+ 
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Unbounded";
